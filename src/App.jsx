@@ -7,7 +7,6 @@ function App() {
     <Router basename="/sathish-portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/view-audience" element={<ViewAudience />} />
       </Routes>
     </Router>
   );
