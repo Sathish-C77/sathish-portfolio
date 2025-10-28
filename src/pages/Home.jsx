@@ -7,9 +7,7 @@ function Home() {
 
   return (
     <div className="main-page">
-      <Link to="/view-audience" className="view-audience-btn">
-        View Audience
-      </Link>
+  
       <button className="save-segment-btn" onClick={() => setIsModalOpen(true)}>
         Save segment
       </button>
