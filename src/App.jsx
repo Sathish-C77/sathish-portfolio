@@ -1,7 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home.jsx";
-import ViewAudience from "./pages/ViewAudience.jsx";
- 
+import Home from "./pages/Home.jsx"; 
 function App() {
   return (
     <Router basename="/sathish-portfolio">
